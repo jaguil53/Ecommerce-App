@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "1",
+        "username": "john_doe",
+        "fullname": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "johnd",
+        "isAdmin": false,
+        "isActive": true
+    },
+    {
+        "_id": "2",
+        "username": "jane_smith",
+        "fullname": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "janesm",
+        "isAdmin": true,
+        "isActive": true
+    }
+]

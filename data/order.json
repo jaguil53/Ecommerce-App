@@ -1,0 +1,260 @@
+[
+    {
+        "_id": "1",
+        "userId": "1",
+        "status": "Processing",
+        "orderTotalPrice": 2099.97,
+        "products": {
+            "1": {
+                "_id": "1",
+                "price": 799.99,
+                "units": 1,
+                "name": "Smartphone",
+                "image": "https://example.com/smartphone.jpg"
+            },
+            "2": {
+                "_id": "2",
+                "price": 1299.99,
+                "units": 1,
+                "name": "Laptop",
+                "image": "https://example.com/laptop.jpg"
+            },
+            "5": {
+                "_id": "5",
+                "price": 9.99,
+                "units": 2,
+                "name": "Teddy Bear",
+                "image": "https://example.com/teddy_bear.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "john.doe@example.com",
+            "phoneNo": "123-456-7890",
+            "address": "123 Main St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T16:00:00Z",
+        "updatedTs": "2023-08-03T16:00:00Z"
+    },
+    {
+        "_id": "2",
+        "userId": "2",
+        "status": "Shipped",
+        "orderTotalPrice": 799.99,
+        "products": {
+            "1": {
+                "_id": "1",
+                "price": 799.99,
+                "units": 1,
+                "name": "Smartphone",
+                "image": "https://example.com/smartphone.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "jane.smith@example.com",
+            "phoneNo": "987-654-3210",
+            "address": "456 Park Ave, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T17:30:00Z",
+        "updatedTs": "2023-08-03T17:30:00Z"
+    },
+    {
+        "_id": "3",
+        "userId": "3",
+        "status": "Delivered",
+        "orderTotalPrice": 47.97,
+        "products": {
+            "5": {
+                "_id": "5",
+                "price": 9.99,
+                "units": 3,
+                "name": "Teddy Bear",
+                "image": "https://example.com/teddy_bear.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "customer@example.com",
+            "phoneNo": "555-123-4567",
+            "address": "789 Oak St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T18:30:00Z",
+        "updatedTs": "2023-08-03T18:30:00Z"
+    },
+    {
+        "_id": "4",
+        "userId": "1",
+        "status": "Processing",
+        "orderTotalPrice": 599.99,
+        "products": {
+            "4": {
+                "_id": "4",
+                "price": 599.99,
+                "units": 1,
+                "name": "LED TV",
+                "image": "https://example.com/led_tv.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "john.doe@example.com",
+            "phoneNo": "123-456-7890",
+            "address": "123 Main St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T20:00:00Z",
+        "updatedTs": "2023-08-03T20:00:00Z"
+    },
+    {
+        "_id": "5",
+        "userId": "2",
+        "status": "Shipped",
+        "orderTotalPrice": 27.98,
+        "products": {
+            "5": {
+                "_id": "5",
+                "price": 9.99,
+                "units": 2,
+                "name": "Teddy Bear",
+                "image": "https://example.com/teddy_bear.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "jane.smith@example.com",
+            "phoneNo": "987-654-3210",
+            "address": "456 Park Ave, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T21:30:00Z",
+        "updatedTs": "2023-08-03T21:30:00Z"
+    },
+    {
+        "_id": "6",
+        "userId": "3",
+        "status": "Delivered",
+        "orderTotalPrice": 89.97,
+        "products": {
+            "7": {
+                "_id": "7",
+                "price": 12.99,
+                "units": 3,
+                "name": "Lipstick",
+                "image": "https://example.com/lipstick.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "customer@example.com",
+            "phoneNo": "555-123-4567",
+            "address": "789 Oak St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T22:15:00Z",
+        "updatedTs": "2023-08-03T22:15:00Z"
+    },
+    {
+        "_id": "7",
+        "userId": "1",
+        "status": "Processing",
+        "orderTotalPrice": 1499.97,
+        "products": {
+            "1": {
+                "_id": "1",
+                "price": 799.99,
+                "units": 1,
+                "name": "Smartphone",
+                "image": "https://example.com/smartphone.jpg"
+            },
+            "3": {
+                "_id": "3",
+                "price": 19.99,
+                "units": 2,
+                "name": "Science Fiction Book",
+                "image": "https://example.com/science_fiction_book.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "john.doe@example.com",
+            "phoneNo": "123-456-7890",
+            "address": "123 Main St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T23:00:00Z",
+        "updatedTs": "2023-08-03T23:00:00Z"
+    },
+    {
+        "_id": "8",
+        "userId": "2",
+        "status": "Shipped",
+        "orderTotalPrice": 104.97,
+        "products": {
+            "5": {
+                "_id": "5",
+                "price": 9.99,
+                "units": 3,
+                "name": "Teddy Bear",
+                "image": "https://example.com/teddy_bear.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "jane.smith@example.com",
+            "phoneNo": "987-654-3210",
+            "address": "456 Park Ave, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-03T23:45:00Z",
+        "updatedTs": "2023-08-03T23:45:00Z"
+    },
+    {
+        "_id": "9",
+        "userId": "3",
+        "status": "Delivered",
+        "orderTotalPrice": 199.98,
+        "products": {
+            "6": {
+                "_id": "6",
+                "price": 14.99,
+                "units": 2,
+                "name": "Soccer Ball",
+                "image": "https://example.com/soccer_ball.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "customer@example.com",
+            "phoneNo": "555-123-4567",
+            "address": "789 Oak St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-04T00:30:00Z",
+        "updatedTs": "2023-08-04T00:30:00Z"
+    },
+    {
+        "_id": "10",
+        "userId": "1",
+        "status": "Processing",
+        "orderTotalPrice": 739.98,
+        "products": {
+            "2": {
+                "_id": "2",
+                "price": 1299.99,
+                "units": 1,
+                "name": "Laptop",
+                "image": "https://example.com/laptop.jpg"
+            },
+            "8": {
+                "_id": "8",
+                "price": 499.99,
+                "units": 1,
+                "name": "Dining Table",
+                "image": "https://example.com/dining_table.jpg"
+            }
+        },
+        "shippingDetails": {
+            "email": "john.doe@example.com",
+            "phoneNo": "123-456-7890",
+            "address": "123 Main St, City, Country"
+        },
+        "isActive": true,
+        "createdTs": "2023-08-04T01:15:00Z",
+        "updatedTs": "2023-08-04T01:15:00Z"
+    }
+]
