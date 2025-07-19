@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "1",
+        "name": "Electronics",
+        "description": "Electronics and gadgets",
+        "isActive": true,
+        "createdTs": "2023-08-03T08:00:00Z",
+        "updatedTs": "2023-08-03T08:00:00Z"
+    },
+    {
+        "_id": "2",
+        "name": "Clothing",
+        "description": "Fashion and clothing items",
+        "isActive": true,
+        "createdTs": "2023-08-03T10:00:00Z",
+        "updatedTs": "2023-08-03T10:00:00Z"
+    },
+    {
+        "_id": "3",
+        "name": "Books",
+        "description": "Fiction and non-fiction books",
+        "isActive": true,
+        "createdTs": "2023-08-03T11:30:00Z",
+        "updatedTs": "2023-08-03T11:30:00Z"
+    },
+    {
+        "_id": "4",
+        "name": "Home Appliances",
+        "description": "Appliances for home use",
+        "isActive": true,
+        "createdTs": "2023-08-03T14:00:00Z",
+        "updatedTs": "2023-08-03T14:00:00Z"
+    },
+    {
+        "_id": "5",
+        "name": "Toys",
+        "description": "Toys and games for children",
+        "isActive": true,
+        "createdTs": "2023-08-03T15:30:00Z",
+        "updatedTs": "2023-08-03T15:30:00Z"
+    },
+    {
+        "_id": "6",
+        "name": "Sports & Outdoors",
+        "description": "Sports equipment and outdoor gear",
+        "isActive": true,
+        "createdTs": "2023-08-03T16:45:00Z",
+        "updatedTs": "2023-08-03T16:45:00Z"
+    },
+    {
+        "_id": "7",
+        "name": "Beauty & Personal Care",
+        "description": "Cosmetics and personal care products",
+        "isActive": true,
+        "createdTs": "2023-08-03T17:15:00Z",
+        "updatedTs": "2023-08-03T17:15:00Z"
+    },
+    {
+        "_id": "8",
+        "name": "Furniture",
+        "description": "Furniture and home decor",
+        "isActive": true,
+        "createdTs": "2023-08-03T18:30:00Z",
+        "updatedTs": "2023-08-03T18:30:00Z"
+    },
+    {
+        "_id": "9",
+        "name": "Jewelry",
+        "description": "Fashion jewelry and accessories",
+        "isActive": true,
+        "createdTs": "2023-08-03T19:00:00Z",
+        "updatedTs": "2023-08-03T19:00:00Z"
+    },
+    {
+        "_id": "10",
+        "name": "Kitchen & Dining",
+        "description": "Kitchenware and dining essentials",
+        "isActive": true,
+        "createdTs": "2023-08-03T20:00:00Z",
+        "updatedTs": "2023-08-03T20:00:00Z"
+    }
+]

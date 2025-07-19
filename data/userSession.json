@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "1",
+        "userId": "1",
+        "sessionToken": "random_session_token_here",
+        "isActive": true,
+        "createdTs": "2023-08-03T15:00:00Z",
+        "updatedTs": "2023-08-03T15:30:00Z"
+    },
+    {
+        "_id": "2",
+        "userId": "2",
+        "sessionToken": "another_random_session_token",
+        "isActive": false,
+        "createdTs": "2023-08-03T11:00:00Z",
+        "updatedTs": "2023-08-03T13:45:00Z"
+    }
+]
